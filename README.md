@@ -1,3 +1,7 @@
-#Mi portfolio template
+# Mi portfolio template
 
-Puedes visitar la web aquí [https://github.com/PaulaFernanz/Portfolio_template.git] (https://github.com/PaulaFernanz/Portfolio_template.git)
+Demo:
+https://paulafernanz.github.io/Portfolio_template/
+
+Repo:
+https://github.com/PaulaFernanz/Portfolio_template

@@ -19,7 +19,7 @@
   </head>
   <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="100">
     <!-- Navigation -->
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top">
       <div class="container">
         <a class="navbar-brand fw-bold" href="#">Portfolio</a>
         <button
@@ -66,17 +66,17 @@
           <div class="shape shape-3"></div>
         </div>
 
-        <div class="container position-relative z-1 text-center text-white">
-          <h1 class="display-1 fw-bold hero-title">John Designer</h1>
+        <div class="container position-relative z-1 text-center text-dark">
+          <h1 class="display-1 fw-bold hero-title">Paula Fernanz</h1>
           <p class="lead hero-subtitle mb-4">
-            Full-Stack Developer & Creative Technologist
+            Diseño gráfico · Dirección de arte · Branding
           </p>
           <div class="hero-cta">
             <a href="#projects" class="btn btn-primary btn-lg me-3"
-              >View Projects</a
+              >Ver Proyectos</a
             >
             <a href="#contact" class="btn btn-outline-light btn-lg"
-              >Get in Touch</a
+              >Mantener en contacto</a
             >
           </div>
         </div>
@@ -90,73 +90,92 @@
       </section>
 
       <!-- About Section -->
-      <section id="about" class="py-5 py-lg-6 bg-dark">
+      <section id="about" class="about-editorial py-5 py-lg-6">
         <div class="container">
-          <div class="row align-items-center g-5">
-            <div class="col-lg-6">
-              <div class="about-image gsap-reveal">
-                <img
-                  src="https://picsum.photos/600/700?random=10"
-                  alt="Profile"
-                  class="img-fluid rounded-4 shadow-lg"
-                />
-              </div>
+          <div class="row g-4 align-items-start">
+            <!-- Col izquierda: título grande -->
+            <div class="col-lg-5">
+              <h2 class="about-title gsap-reveal">SOBRE<br />MI</h2>
+              <p class="about-lead gsap-reveal">
+                Diseño gráfico con foco en branding, editorial y dirección de
+                arte.
+              </p>
             </div>
-            <div class="col-lg-6">
-              <h2 class="display-5 fw-bold mb-4 gsap-reveal">About Me</h2>
-              <p class="lead text-muted mb-4 gsap-reveal">
-                I'm a creative developer passionate about building beautiful,
-                functional, and accessible digital experiences.
-              </p>
-              <p class="text-muted gsap-reveal">
-                With 7+ years of experience spanning front-end development,
-                UI/UX design, and motion graphics, I bring a unique perspective
-                to every project. I believe in the power of animation to enhance
-                user experience without sacrificing performance.
-              </p>
 
-              <!-- Skills with animated progress -->
-              <div class="skills mt-5">
-                <div class="skill-item gsap-reveal mb-3">
-                  <div class="d-flex justify-content-between mb-2">
-                    <span class="fw-semibold">React / Next.js</span>
-                    <span class="text-muted">95%</span>
-                  </div>
-                  <div class="progress" style="height: 8px">
-                    <div class="progress-bar skill-bar" data-width="95"></div>
-                  </div>
-                </div>
-                <div class="skill-item gsap-reveal mb-3">
-                  <div class="d-flex justify-content-between mb-2">
-                    <span class="fw-semibold">GSAP / Animation</span>
-                    <span class="text-muted">90%</span>
-                  </div>
-                  <div class="progress" style="height: 8px">
-                    <div class="progress-bar skill-bar" data-width="90"></div>
+            <!-- Col derecha: grid editorial con bloques + imagen -->
+            <div class="col-lg-7">
+              <div class="row g-4">
+                <!-- Bloque 01 -->
+                <div class="col-md-6">
+                  <div class="about-block gsap-reveal">
+                    <div class="about-num">01</div>
+                    <div class="about-block-title">ENFOQUE</div>
+                    <p class="about-block-text">
+                      Minimalismo, tipografía y composición para piezas claras y
+                      con carácter.
+                    </p>
                   </div>
                 </div>
-                <div class="skill-item gsap-reveal mb-3">
-                  <div class="d-flex justify-content-between mb-2">
-                    <span class="fw-semibold">Node.js / Express</span>
-                    <span class="text-muted">85%</span>
+
+                <!-- Bloque 02 -->
+                <div class="col-md-6">
+                  <div class="about-block gsap-reveal">
+                    <div class="about-num">02</div>
+                    <div class="about-block-title">EXPERIENCIA</div>
+                    <p class="about-block-text">
+                      Proyectos de clase y personales en identidad visual,
+                      editorial y 3D.
+                    </p>
                   </div>
-                  <div class="progress" style="height: 8px">
-                    <div class="progress-bar skill-bar" data-width="85"></div>
+                </div>
+
+                <!-- Imagen grande -->
+                <div class="col-md-6">
+                  <div class="about-photo gsap-reveal">
+                    <img
+                      src="assets/images/IMG_1319.JPEG"
+                      alt="Foto de Paula"
+                    />
+                  </div>
+                </div>
+
+                <!-- Bloque 03 -->
+                <div class="col-md-6">
+                  <div class="about-block gsap-reveal">
+                    <div class="about-num">03</div>
+                    <div class="about-block-title">HERRAMIENTAS</div>
+                    <p class="about-block-text">
+                      Illustrator, InDesign, Photoshop, Figma y Blender (según
+                      proyecto).
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Bloque 04 -->
+                <div class="col-md-6">
+                  <div class="about-block gsap-reveal">
+                    <div class="about-num">04</div>
+                    <div class="about-block-title">DISPONIBILIDAD</div>
+                    <p class="about-block-text">
+                      Abierta a prácticas / colaboraciones. Contacto por email o
+                      LinkedIn.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
+            <!-- /col derecha -->
           </div>
         </div>
       </section>
 
       <!-- Projects Section -->
-      <section id="projects" class="py-5 py-lg-6">
+      <section id="projects" class="py-5 py-lg-6" style="background: #82b2b5">
         <div class="container">
           <div class="text-center mb-5">
-            <h2 class="display-5 fw-bold gsap-reveal">Featured Projects</h2>
+            <h2 class="display-5 fw-bold gsap-reveal">Mis prOyectos</h2>
             <p class="lead text-muted gsap-reveal">
-              A selection of my recent work
+              Una pequeña selección de mis mejores trabajos recientes.
             </p>
           </div>
 
@@ -166,26 +185,28 @@
               <article class="card project-card h-100 border-0 shadow-sm">
                 <div class="card-img-wrapper overflow-hidden">
                   <img
-                    src="https://picsum.photos/400/300?random=1"
+                    src="assets/images/libroo2.png"
                     class="card-img-top"
-                    alt="E-commerce Platform"
+                    alt="Proyecto de branding"
                   />
                 </div>
                 <div class="card-body">
-                  <h3 class="card-title h5">E-commerce Platform</h3>
+                  <h3 class="card-title h5">
+                    Edición especial Alicia en el País de las Maravillas
+                  </h3>
                   <p class="card-text text-muted small">
                     Full-stack e-commerce solution with real-time inventory and
                     Stripe integration.
                   </p>
                   <div class="d-flex flex-wrap gap-2">
                     <span class="badge bg-primary-subtle text-primary"
-                      >React</span
+                      >Editorial</span
                     >
                     <span class="badge bg-primary-subtle text-primary"
-                      >Node.js</span
+                      >Edición especial</span
                     >
                     <span class="badge bg-primary-subtle text-primary"
-                      >MongoDB</span
+                      >Ilsutración</span
                     >
                   </div>
                 </div>
@@ -197,26 +218,28 @@
               <article class="card project-card h-100 border-0 shadow-sm">
                 <div class="card-img-wrapper overflow-hidden">
                   <img
-                    src="https://picsum.photos/400/300?random=2"
+                    src="assets/images/Fernanz.Paula_3.3._Render2.jpg"
                     class="card-img-top"
                     alt="Dashboard UI"
                   />
                 </div>
                 <div class="card-body">
-                  <h3 class="card-title h5">Analytics Dashboard</h3>
+                  <h3 class="card-title h5">
+                    Modelado en 3D de las Nike Air Force
+                  </h3>
                   <p class="card-text text-muted small">
                     Real-time data visualization with interactive charts and
                     dark mode.
                   </p>
                   <div class="d-flex flex-wrap gap-2">
                     <span class="badge bg-primary-subtle text-primary"
-                      >D3.js</span
+                      >Modelado 3D</span
                     >
                     <span class="badge bg-primary-subtle text-primary"
-                      >WebSocket</span
+                      >Design</span
                     >
                     <span class="badge bg-primary-subtle text-primary"
-                      >GSAP</span
+                      >Render</span
                     >
                   </div>
                 </div>
@@ -228,107 +251,26 @@
               <article class="card project-card h-100 border-0 shadow-sm">
                 <div class="card-img-wrapper overflow-hidden">
                   <img
-                    src="https://picsum.photos/400/300?random=3"
+                    src="assets/images/Back_View.png"
                     class="card-img-top"
                     alt="Mobile App"
                   />
                 </div>
                 <div class="card-body">
-                  <h3 class="card-title h5">Fitness Mobile App</h3>
+                  <h3 class="card-title h5">Cátalogo exposición de Monet</h3>
                   <p class="card-text text-muted small">
                     Cross-platform fitness tracker with workout plans and
                     progress analytics.
                   </p>
                   <div class="d-flex flex-wrap gap-2">
                     <span class="badge bg-primary-subtle text-primary"
-                      >React Native</span
+                      >Editorial</span
                     >
                     <span class="badge bg-primary-subtle text-primary"
-                      >Firebase</span
-                    >
-                  </div>
-                </div>
-              </article>
-            </div>
-
-            <!-- Project Card 4 -->
-            <div class="col-md-6 col-lg-4">
-              <article class="card project-card h-100 border-0 shadow-sm">
-                <div class="card-img-wrapper overflow-hidden">
-                  <img
-                    src="https://picsum.photos/400/300?random=4"
-                    class="card-img-top"
-                    alt="Portfolio Site"
-                  />
-                </div>
-                <div class="card-body">
-                  <h3 class="card-title h5">Agency Website</h3>
-                  <p class="card-text text-muted small">
-                    Award-winning agency site with scroll-driven animations and
-                    3D elements.
-                  </p>
-                  <div class="d-flex flex-wrap gap-2">
-                    <span class="badge bg-primary-subtle text-primary"
-                      >Three.js</span
+                      >Arte</span
                     >
                     <span class="badge bg-primary-subtle text-primary"
-                      >GSAP</span
-                    >
-                  </div>
-                </div>
-              </article>
-            </div>
-
-            <!-- Project Card 5 -->
-            <div class="col-md-6 col-lg-4">
-              <article class="card project-card h-100 border-0 shadow-sm">
-                <div class="card-img-wrapper overflow-hidden">
-                  <img
-                    src="https://picsum.photos/400/300?random=5"
-                    class="card-img-top"
-                    alt="SaaS Platform"
-                  />
-                </div>
-                <div class="card-body">
-                  <h3 class="card-title h5">SaaS Platform</h3>
-                  <p class="card-text text-muted small">
-                    Multi-tenant SaaS with role-based access and subscription
-                    management.
-                  </p>
-                  <div class="d-flex flex-wrap gap-2">
-                    <span class="badge bg-primary-subtle text-primary"
-                      >Next.js</span
-                    >
-                    <span class="badge bg-primary-subtle text-primary"
-                      >Prisma</span
-                    >
-                  </div>
-                </div>
-              </article>
-            </div>
-
-            <!-- Project Card 6 -->
-            <div class="col-md-6 col-lg-4">
-              <article class="card project-card h-100 border-0 shadow-sm">
-                <div class="card-img-wrapper overflow-hidden">
-                  <img
-                    src="https://picsum.photos/400/300?random=6"
-                    class="card-img-top"
-                    alt="AI Tool"
-                  />
-                </div>
-                <div class="card-body">
-                  <h3 class="card-title h5">AI Content Generator</h3>
-                  <p class="card-text text-muted small">
-                    GPT-powered content creation tool with custom fine-tuning
-                    options.
-                  </p>
-                  <div class="d-flex flex-wrap gap-2">
-                    <span class="badge bg-primary-subtle text-primary"
-                      >OpenAI</span
-                    >
-                    <span class="badge bg-primary-subtle text-primary"
-                      >Python</span
+                      >Exposición</span
                     >
                   </div>
                 </div>
@@ -344,7 +286,7 @@
           <div class="row justify-content-center">
             <div class="col-lg-8 text-center">
               <h2 class="display-5 fw-bold mb-4 gsap-reveal">
-                Let's Work Together
+                Trabajemos juntos!!
               </h2>
               <p class="lead text-muted mb-5 gsap-reveal">
                 Have a project in mind? I'd love to hear about it. Let's create
@@ -352,10 +294,10 @@
               </p>
               <div class="gsap-reveal">
                 <a
-                  href="mailto:hello@example.com"
+                  href="mailto:paula@gmail.com"
                   class="btn btn-primary btn-lg mb-4"
                 >
-                  Start a Conversation
+                  Empezemos a hablar
                 </a>
               </div>
               <div
@@ -407,9 +349,7 @@
     <!-- Footer -->
     <footer class="py-4 text-center text-muted small">
       <div class="container">
-        <p class="mb-0">
-          &copy; 2025 John Designer. Built with Bootstrap 5 + GSAP.
-        </p>
+        <p class="mb-0">&copy; 2025 Paula Fernanz. Built with Bootstrap 5.</p>
       </div>
     </footer>
 

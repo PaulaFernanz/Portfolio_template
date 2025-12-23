@@ -4,8 +4,8 @@
 
 /* -------- Variables -------- */
 :root {
-  --ink: #1b6f77;
-  --muted: #3f6f73;
+  --ink: #173538;
+  --muted: #29555a;
   --text: var(--ink);
   --bg: #ffffff;
   --hero-bg: linear-gradient(135deg, #c8e4ec 0%, #82b2b5 50%, #3671b8 100%);
